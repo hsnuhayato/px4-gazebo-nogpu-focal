@@ -14,6 +14,7 @@ RUN apt-get update && apt-get upgrade -y && apt-get install -y \
     git \
     libgtest-dev \
     ssh \
+    ipython3 \
     libgrpc++-dev \
  && rm -rf /var/lib/apt/lists/*
 
